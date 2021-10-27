@@ -4,3 +4,6 @@ Repositório contendo os projetos simples feitos durante o curso mas que podem s
 
 Neste repositório estarão os projetos:
 - Projeto Fashion
+- Template Infusion
+- Projeto Strata
+- Projeto com layout resposivo
