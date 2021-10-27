@@ -1,0 +1,377 @@
+/* 1000px(62.5em), 1184px(74em) usando max-width de 1124px
+/*global styles*/
+html
+{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+h1, h2, h3
+{
+    font-family: 'Oxygen', sans-serif;
+}
+.top-content
+{
+    max-width: 100%;
+}
+.clearFix
+{
+    clear: both;
+    overflow: hidden;
+}
+.icon-play
+{
+    display:none;
+}
+/*class with max-width for all elements into the sectios*/
+.maxwidth
+{
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.estilo-botao
+{
+    border-radius: 5px;
+    padding: .9em 2.7em;
+    background: #58c4c4;
+    text-decoration: none;
+    color: white;
+}
+.estilo-botao:hover
+{
+    background: #37a0a0;
+}
+.section1-h3
+{
+    color: #612674;
+    font-size: 1.375em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1.1em;
+    letter-spacing: 1px;
+    padding-bottom: .9em;
+}
+.paragrafos-sections
+{
+    color: #222;
+    line-height: 1.5;
+}
+.ocultar
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+/*header style*/
+#cabecalho
+{
+    text-align: center;
+}
+#cabecalho img
+{
+    margin-top: .6em;
+}
+#cabecalho nav
+{
+    background: #612674;
+    margin-top: .5em;
+    padding-bottom: .5em;
+}
+#cabecalho nav ul li
+{
+    color: white;
+    font-weight: 500;
+}
+#cabecalho nav ul li a:hover
+{
+    background: #7c3792;
+}
+#cabecalho nav ul li a
+{
+    padding: 1.07em;
+    text-decoration: none;
+    color: white;
+    display: block;
+    box-sizing: border-box;
+}
+
+/*section 1 style*/
+#secao1
+{
+    background: #f6f6f6;
+    text-align: center;
+}
+#secao1 i[class^=icon]
+{
+    color: #652e78;
+    font-size: 3.5em;
+}
+#secao1 h1
+{
+    color: #612674;
+    font-size: 1.375em;
+    font-weight: bold;
+    padding-bottom: 1.72em;
+    letter-spacing: 1px;
+}
+#secao1 article h2
+{
+    color: #a87bb7;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-bottom: 1.8em;
+    padding-left: .9em;
+    padding-right: .9em;
+    letter-spacing: 1px;
+}
+#secao1 article:first-child
+{
+    padding-top: 2.25em;
+    padding-bottom: 3.1em;
+}
+#secao1 article:last-child
+{
+    padding-bottom: 3em;
+}
+#secao1 article
+{
+    padding: .8em 0 0;
+}
+/*sectio2 styles*/
+#secao2
+{
+    text-align: left;
+    background: white;
+    padding-left: 2.5em;
+}
+#secao2 article:first-child
+{
+    padding-top: 3.5em;
+    padding-bottom: 1.2em;
+}
+#secao2 article
+{
+    padding: .2em 0 1.75em;
+}
+#secao2 article h3
+{
+    color: #612674;
+    text-transform: uppercase;
+    font-size: 1.375em;
+    padding-bottom: .7em;
+    letter-spacing: 3px;
+}
+#secao2 article p
+{
+    padding-top: .3em;
+    padding-bottom: 1.75em;
+    line-height: 1.2;
+}
+#secao2 article:last-child
+{
+    padding-top: 3em;
+    padding-bottom: 7.5em;
+}
+#icones-footer
+{
+    background: #303d4c;
+    text-align: center;
+    padding: .7em;
+}
+#icones-footer li
+{
+    display: inline-block;
+    text-align: center;
+    width: 2.9em;
+}
+#icones-footer li a[class^=icon]
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.12em;
+}
+footer
+{
+    background: #25303e;
+    color: #83969f;
+}
+footer p
+{
+    padding: 0 .1em 0 .1em;
+    text-align: center;
+}
+#copyright
+{
+    padding: 1.1em 0 1em;
+}
+#info-comp
+{
+    padding-bottom: 3.1em;
+}
+@media screen and (min-width: 48.75em)
+{
+    #cabecalho
+    {
+        text-align: left;
+    }
+    #cabecalho ul li
+    {
+        display: inline-block;
+    }
+    #cabecalho img
+    {
+        padding-left: .9em;
+    }
+    #cabecalho nav
+    {
+        float: right;
+        background: white;
+        padding: .85em .2em 0 0;
+    }
+    #cabecalho nav ul li a
+    {
+        color: #612674;
+    }
+    #cabecalho nav ul li a:hover
+    {
+        background: #e7d9fc;
+    }
+    
+    #secao1 article h1, #secao1 article h2
+    {
+        color: white;
+    }
+    #secao1 article:first-child
+    {
+        padding-top: 0;
+        padding-bottom: .2em;
+    }
+    #secao1 article
+    {
+        padding-top: 3em;
+    }
+    .top-content 
+    {
+        height: 19em;
+        background: #521a66;
+    }
+    .icon-play
+    {
+        display: block;
+    }
+    .icon-play img
+    {
+        padding-top: .9em;
+        padding-bottom: 1em;
+        width: 5em;
+    }
+    .col-1
+    {
+        display: inline-block;
+        float:left;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 40%;
+        background: #f6f6f6;
+    }
+    .col-2
+    {
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: inline-block;
+        float:right;
+        background: #f6f6f6;
+    }
+    #secao2 article
+    {
+        padding-right: 1em;
+        padding-top: 1.75em;
+    }
+    #secao2 article:last-child
+    {
+        padding-top: 4.75em;
+    }
+    #secao2 article a
+    {
+        float: right;
+    }
+    #secao2 article p
+    {
+        padding-bottom: .9em;
+    }
+}
+@media screen and (min-width: 62.5em)
+{
+    .top-content
+    {
+        background: #521a66 url("../imagens/bg_topo_1198x670.jpg");
+        height: 37.8em;
+        max-width: 100%;
+    }
+    .top-content img
+    {
+        margin-top: 17em;
+    }
+}
+@media screen and (min-width: 74em)
+{
+    .top-content
+    {
+        background: #521a66 url("../imagens/bg_topo_1600x1374.jpg");
+        background-position: top center;
+        height: 48.5em;
+        max-width: 100%;
+    }
+    .icon-play img
+    {
+        width: 7em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .row-1
+    {
+        float: left;
+        width: 19%;
+        margin: 0 .55em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #secao1 article:nth-child(2)
+    {
+        margin-left: 8.5em;
+    }
+    #secao1 article:last-child
+    {
+        margin-right: 6.5em;
+    }
+    #secao1 article h2 
+    {
+        padding-left: 17em;
+        padding-right: 17em;
+    }
+    #secao2 article
+    {
+        width: 45%;
+        display: inline-block;
+        padding: 1.35em .1em;
+    }
+    #secao2
+    {
+        padding-left: 8em;
+    }
+    #secao2 article:last-child
+    {
+        padding: 0;
+    }
+    #secao2 article a
+    {
+        float: none;
+        display:inline-block;
+    }
+    footer
+    {
+        margin-top: 2.75em;
+    }
+}

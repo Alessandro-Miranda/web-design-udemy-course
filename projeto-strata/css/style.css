@@ -1,0 +1,317 @@
+/*Configure the box-sizing of the page to border box*/
+html
+{
+    box-sizing: border-box;
+}
+*, *:before, *:after
+{
+    box-sizing: inherit;
+}
+/*positioning of the main header and footer. Align the two elements at left*/
+.esquerda
+{
+    width:35%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+}
+#fundo
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagens/bg.jpg);
+    background-size: cover;
+}
+.rodape
+{
+    margin-top: 450px;
+}
+/*helps in darkening the header background*/
+.escurecimento-bg
+{
+    background: rgba(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+}
+/*general button design*/
+.link-botoes
+{
+    text-decoration: none;
+    color: #797979;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 2.5px solid #EDEDED;
+    border-radius: 7px;
+    padding: 14px 45px;
+    background: transparent;
+    transition: color .5s, border .5s;
+    transition-timing-function: cubic-bezier(.32,.65,.69,.82);
+}
+/*header image alignment and format, h1 and other things relateds to header*/
+.cabecalho img
+{
+    margin: 70px 0px 15px 63%;
+    height: 110px;
+    border-radius: 50%;
+}
+.cabecalho h1
+{
+    margin-right: 65px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: right;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #DBDBDB;
+}
+.cabecalho b
+{
+    font-weight: 500;
+    color: white;
+}
+#link-cab
+{
+    color: #DBDBDB;
+    border-bottom: 1px dotted #DBDBDB;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .5s, border .5s;
+    transition-timing-function: cubic-bezier(.32,.65,.69,.82);
+}
+/*align and position footer content*/
+.rodape
+{
+    font-size: 14px;
+    color: #797979;
+    padding-left: 30px;
+}
+.rodape p
+{
+    display: inline-block;
+    margin-left: 5px;
+}
+.rodape p:nth-child(1)
+{
+    margin-left: 60px;
+}
+.rodape a
+{
+    text-decoration: none;
+    border-bottom: 1px dotted #5B5B5B;
+    color: #797979;
+    transition: color .5s;
+    transition-timing-function: cubic-bezier(.32,.65,.69,.82);
+}
+.rodape ul
+{
+    margin-bottom: 20px;
+}
+.rodape ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+.rodape ul li:nth-child(1)
+{
+    margin-left: 190px;
+}
+.rodape ul li a
+{
+    text-decoration: none;
+    border: none;
+}
+/*positioning main content at right*/
+main
+{
+    overflow: hidden;
+    margin: 0;
+    width: 63%;
+    position: relative;
+    left: 35%;
+    padding: 70px 45px 100px 70px;
+}
+/*configure the sections' fonts, padding, margin and other*/
+#learn-more
+{
+    font-family: 'Lato';
+    margin-bottom: 70px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid #EDEDED;
+}
+#learn-more h1
+{
+    color: #797979;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 43px;
+    line-height: 1.5;
+}
+#learn-more p
+{
+    font-size: 15.5px;
+    line-height: 2;
+    color: #9C9C9C;
+    margin-bottom: 80px;
+}
+#recent-work
+{
+    font-family: 'Lato';
+    margin-bottom: 70px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid #EDEDED; 
+}
+/*configure the title of learn more and get in touch section*/
+#recent-work h1, #touch h1
+{
+    color: #797979;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+#recent-work h2
+{
+    color: #797979;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+#recent-work p
+{
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #9C9C9C;
+}
+.container-img-recent-work
+{
+    margin-bottom: 30px;
+}
+.container-img-recent-work > figure
+{
+    display: inline-block;
+    position: relative;
+}
+.container-img-recent-work > figure:nth-child(odd)
+{
+    margin-right: 35px;
+}
+.container-img-recent-work img
+{
+    width: 347px;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+}
+.capa
+{
+    display: none;
+    position:  absolute;
+    top: 0;
+    padding-top: 90px;
+    width: 347px;
+    height: 200px;
+    background: transparent;
+    font-size: 14px;
+    background: rgba(0,0,0,.29);
+}
+.capa a
+{
+    font-family: 'Lato';
+    text-decoration: none;
+    color: white;
+    border: 2.5px solid #C1C1C1;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.container-img-recent-work figure:hover .capa
+{
+    display: block;
+    text-align: center;
+}
+/*get in touch section design*/
+/*The <h1> configuration is together recent work section*/
+#touch
+{
+    font-family: 'Lato';
+}
+#touch p
+{
+    font-size: 15.5px;
+    line-height: 2;
+    color: #9C9C9C;
+    margin-bottom: 30px;
+}
+#touch input, #touch textarea
+{
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(121, 121, 121, .2);
+    border: none;
+    border-radius: 4px;
+    margin: 0px 20px 20px 0px;
+    transition: border .1s;
+    transition-timing-function: cubic-bezier(.32,.65,.69,.82);
+}
+#touch fieldset
+{
+    float:  left;
+}
+#touch input
+{
+    width: 230px;
+    height: 45px;
+}
+#touch textarea
+{
+    display: block;
+    width: 485px;
+    height: 150px;
+    resize: none;
+    margin-bottom: 40px;
+}
+#touch address
+{
+    float: right;
+    width: 200px;
+    margin-top: 0px;
+}
+#touch address a
+{
+    color: #9C9C9C;
+    border-bottom: 2px dotted #9C9C9C;
+    text-decoration: none;
+    transition: color .5s, border .5s;
+    transition-timing-function: cubic-bezier(.32,.65,.69,.82);
+}
+#touch i
+{
+    margin-right: 10px;
+}
+/*effects of visual elements*/
+#link-cab:hover
+{
+    color: #50c878;
+    border-bottom: 0px solid transparent;
+}
+.rodape a:hover
+{
+    color: #50c878;
+}
+.link-botoes:hover
+{
+    color: #50c878;
+    border: 2.5px solid #50c878;
+}
+#touch address a:hover
+{
+    color:  #50c878;
+    border-bottom: 0.1px solid transparent;
+}
+#touch input:focus, #touch textarea:focus
+{
+    border: 1.5px solid green;
+    outline:  none;
+    border-radius: 4px;
+}

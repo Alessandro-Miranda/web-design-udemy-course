@@ -1,2 +1,6 @@
-# web-design-udemy-course
-Projetos básicos de HTML feitos no curso de web design da udemy
+# Curso Web Design completo (Daniel Tapias - Udemy)
+
+Repositório contendo os projetos simples feitos durante o curso mas que podem ser utilizados para compartilhar aprendizado com pessoas novas e utilizar como referência futuramente.
+
+Neste repositório estarão os projetos:
+- Projeto Fashion
